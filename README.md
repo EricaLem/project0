@@ -9,3 +9,9 @@ farming business in downtown Toronto.
 
 The project contains a home page, an About Us page, a page listing the crops we grow, 
 and a page showcasing pictures from the operations of the business. 
+
+The repository contains:
+- four HTML files: homePage.html, aboutUs.html, cropsWeGrow.html, and pictures.html
+- a CSS stylesheet: styles.css
+- ac SCSS sheet with variables for padding and colour: styles.scss
+- a folder of JPG files for the pictures.html page
