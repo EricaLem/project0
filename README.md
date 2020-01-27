@@ -3,6 +3,9 @@
 This webpage is the first assignment for ENGO551 at the University of Calgary. 
 The objective was to become familiarized with HTML, CSS, and SCSS to design a webpage.
 
+## Video screencast
+Check out a runthough of the website here: https://youtu.be/CqopTSA9xBM
+
 ## Contents
 I chose the topic of my former business, City Seed Farms. It was a bike-powered urban 
 farming business in downtown Toronto.
