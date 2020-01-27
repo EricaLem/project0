@@ -8,7 +8,8 @@ I chose the topic of my former business, City Seed Farms. It was a bike-powered 
 farming business in downtown Toronto.
 
 The project contains a home page, an About Us page, a page listing the crops we grow, 
-and a page showcasing pictures from the operations of the business. 
+and a page showcasing pictures from the operations of the business. It uses the Bootstrap 4
+library, @media queries, CSS styling, and SCSS variables.
 
 The repository contains:
 - four HTML files: homePage.html, aboutUs.html, cropsWeGrow.html, and pictures.html
