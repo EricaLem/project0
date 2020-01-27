@@ -1,0 +1,77 @@
+$base-padding: 20px;
+$col-heading: darkgray;
+
+/* Headings */
+h1 {
+	color: darkgray;
+	text-align: left;
+	font-style: italic;
+	font-family: "Palatino";
+	font-size: 28px;
+	padding: $base-padding;
+}
+h2 {
+	color: $col-heading;
+	text-align: left;
+	/*font-family: "Verdana";*/
+	font-size: 21px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 3px;
+}
+p {
+	text-align: justify;
+	font-family: "Verdana";
+	padding-left: $base-padding;
+	padding-right: $base-padding;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+a {
+	color: darkgray;
+}
+/* Tables */
+table {
+	margin: 30px;
+	text-align: center;
+}
+th, td {
+	border: 1px solid $col-heading;
+	border-collapse:collapse;
+	padding: 8px;
+}
+th {
+	text-align: center;
+	background-color: lightgray;
+}
+
+/* Banner */
+#header{
+	height: 100px;
+	background-color: black;
+}
+.centered {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	height: 100px;
+}
+
+/* Misc. IDs */
+#linkblock {
+	padding: 5px;
+	}
+#link {
+	color: $col-heading;
+	text-align: center;
+	padding: 5px;
+}
+#picblock {
+	padding: $base-padding;
+	}
+#pic {
+	max-width: 90%;
+	height: auto;
+	padding: 10px;
+	}

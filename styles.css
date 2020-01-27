@@ -1,55 +1,86 @@
-/*$base-padding: 10px;*/
 /* Headings */
 h1 {
-	color: darkgray;
-	text-align: center;
-	font-style: italic;
-	font-family: "Palatino";
-	font-size: 28px;
+  color: darkgray;
+  text-align: left;
+  font-style: italic;
+  font-family: "Palatino";
+  font-size: 28px;
+  padding: 20px;
 }
-a {
-	color: darkgray;
-}
+
 h2 {
-	text-align: center;
-	font-family: "Verdana";
+  color: darkgray;
+  text-align: left;
+  /*font-family: "Verdana";*/
+  font-size: 21px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 3px;
 }
+
 p {
-	text-align: justify;
-	font-family: "Verdana";
-	padding: 5px;
+  text-align: justify;
+  font-family: "Verdana";
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
-/* Captions */
-h4 {
-	text-align: center;
-	font-family: "Verdana";
-	font-style: italic;
-	font-size: 16px;
+
+a {
+  color: darkgray;
 }
-#header{
-	height: 100px;
-	background-color: black;
+
+/* Tables */
+table {
+  margin: 30px;
+  text-align: center;
 }
+
+th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+  background-color: lightgray;
+}
+
+/* Banner */
+#header {
+  height: 100px;
+  background-color: black;
+}
+
 .centered {
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-  	height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
 }
+
+/* Misc. IDs */
 #linkblock {
-	padding: 5px;
-	}
-#link {
-	color: darkgray;
-	text-align: center;
-	/*background-color: #FFF0F5; /*pale pink*/
-	padding: 5px;
+  padding: 5px;
 }
+
+#link {
+  color: darkgray;
+  text-align: center;
+  padding: 5px;
+}
+
 #picblock {
-	padding: 15px;
-	}
+  padding: 20px;
+}
+
 #pic {
-	max-width: 90%;
-	height: auto;
-	padding: 10px;
-	}
+  max-width: 90%;
+  height: auto;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
